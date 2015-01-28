@@ -93,7 +93,7 @@ void WritePacket(HANDLE h, int address, const void *data, size_t data_size) {
 }
 
 int main(int argc, char * argv[]) {
-  HANDLE h = CreateFile(L"\\\\.\\COM7", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+  HANDLE h = CreateFile(L"\\\\.\\COM23", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
   if (!h) {
     printf("CreateFile failed\n");
     return 0;
@@ -159,4 +159,3 @@ int main(int argc, char * argv[]) {
   }
   return 0;
 }
-

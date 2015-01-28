@@ -393,11 +393,11 @@
     <!-- Do not hand-edit this section, as it will be overwritten when the    -->
     <!-- project is analyzed based on files automatically identified as       -->
     <!-- include files.                                                       -->
-    <file xil_pn:name="../src/apu.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="../src/cpu.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="../src/MicroCode.v" xil_pn:type="FILE_VERILOG"/>
-    <file xil_pn:name="../src/mmu.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../src/apu.v" xil_pn:type="FILE_VERILOG"/>
     <file xil_pn:name="../src/ppu.v" xil_pn:type="FILE_VERILOG"/>
+    <file xil_pn:name="../src/mmu.v" xil_pn:type="FILE_VERILOG"/>
   </autoManagedFiles>
 
 </project>

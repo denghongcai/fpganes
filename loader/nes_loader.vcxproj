@@ -19,13 +19,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v110_xp</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -41,13 +41,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\dev\WindowsSDK\include;C:\dev\QuicktimeSDK\CIncludes;D:\Lib\ffmpeg;C:\dev\Dx9SDK\Include;$(IncludePath);D:\Lib\digilent.adept.sdk_v2.1.1\include</IncludePath>
-    <LibraryPath>C:\dev\WindowsSDK\lib;C:\dev\Dx9SDK\Lib\x86;$(LibraryPath);D:\Lib\digilent.adept.sdk_v2.1.1\lib</LibraryPath>
+    <IncludePath>C:\dev\WindowsSDK\include;C:\dev\QuicktimeSDK\CIncludes;D:\Lib\ffmpeg;C:\dev\Dx9SDK\Include;$(IncludePath);D:\Embedded\FPGA\Code\fpganes\loader\digilent.adept.sdk_v2.3.1\include</IncludePath>
+    <LibraryPath>C:\dev\WindowsSDK\lib;C:\dev\Dx9SDK\Lib\x86;$(LibraryPath);D:\Embedded\FPGA\Code\fpganes\loader\digilent.adept.sdk_v2.3.1\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\dev\WindowsSDK\include;C:\dev\QuicktimeSDK\CIncludes;D:\Lib\ffmpeg;C:\dev\Dx9SDK\Include;$(IncludePath);D:\Lib\digilent.adept.sdk_v2.1.1\include</IncludePath>
-    <LibraryPath>C:\dev\WindowsSDK\lib;C:\dev\Dx9SDK\Lib\x86;$(LibraryPath);D:\Lib\digilent.adept.sdk_v2.1.1\lib</LibraryPath>
+    <IncludePath>C:\dev\WindowsSDK\include;C:\dev\QuicktimeSDK\CIncludes;D:\Lib\ffmpeg;C:\dev\Dx9SDK\Include;$(IncludePath);D:\Embedded\FPGA\Code\fpganes\loader\digilent.adept.sdk_v2.3.1\include</IncludePath>
+    <LibraryPath>C:\dev\WindowsSDK\lib;C:\dev\Dx9SDK\Lib\x86;$(LibraryPath);D:\Embedded\FPGA\Code\fpganes\loader\digilent.adept.sdk_v2.3.1\lib</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
